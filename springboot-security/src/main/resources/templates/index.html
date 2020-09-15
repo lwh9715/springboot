@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+	<div align="center">
+	<h1>欢迎光临武林秘籍管理系统</h1>
+		<!--如果没认证-->
+		<div sec:authorize="!isAuthenticated()">
+			<h2>游客您好,如果你想看武林秘籍<a th:href="@{/login}">请登录</a></h2>
+		</div>
+		<!--如果认证了-->
+		<div sec:authorize="isAuthenticated()">
+		<h2>
+			<!--获取用户名-->
+			<span sec:authentication="name"></span>你好！你的角色有:
+			<!--获取角色-->
+			<span sec:authentication="principal.authorities"></span>
+		</h2>
+		</div>
+		<form th:action="@{/logout}" method="post">
+			<input type="submit" value="注销">
+		</form>
+	</div>
+	<hr>
+	<div sec:authorize="hasRole('vip1')">
+		<h3>普通武功秘籍</h3>
+		<ul>
+		<li><a th:href="@{/level1/1}">罗汉拳</a></li>
+		<li><a th:href="@{/level1/2}">全真剑法</a></li>
+		<li><a th:href="@{/level1/3}">武林长拳</a></li>
+		</ul>
+	</div>
+	<div sec:authorize="hasRole('vip2')">
+		<h3>高级武功秘籍</h3>
+		<ul>
+		<li><a th:href="@{/level2/4}">太极拳</a></li>
+		<li><a th:href="@{/level2/5}">七伤拳</a></li>
+		<li><a th:href="@{/level2/6}">梯云纵</a></li>
+		</ul>
+	</div>
+	<div sec:authorize="hasRole('vip3')">
+		<h3>绝世武功秘籍</h3>
+		<ul>
+		<li><a th:href="@{/level3/7}">葵花宝典</a></li>
+		<li><a th:href="@{/level3/8}">龟派气功</a></li>
+		<li><a th:href="@{/level3/9}">独孤九剑</a></li>
+		</ul>
+	</div>
+</body>
+</html>
