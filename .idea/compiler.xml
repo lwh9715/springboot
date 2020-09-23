@@ -10,6 +10,7 @@
         <module name="springboot-elasticsearch" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-redis" />
+        <module name="springboot-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-security" target="1.8" />
+      <module name="springboot-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
+      <module name="springboot-web" options="-parameters" />
     </option>
   </component>
 </project>
