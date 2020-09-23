@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="434b8a82-8d0f-40f5-9aaa-15660d19cf78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/SpringbootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/component/LoginHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/component/MyLocaleResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/config/DruidConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/mapper/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/example/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/i18n/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/i18n/login_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/mybatis/mapper/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/sql/customer.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/brand/bootstrap-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/brand/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/commons/bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/customer/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/customer/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/customer/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/product/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/product/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/product/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/table/customer_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/table/product_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/test-classes/com/example/SpringbootApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\workspace\springboot-web\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hrHBGmBS38mBFDIxdeBudvByk3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\springboot-web\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringbootWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="434b8a82-8d0f-40f5-9aaa-15660d19cf78" name="Default Changelist" comment="" />
+      <created>1600762153968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600762153968</updated>
+      <workItem from="1600762158449" duration="2802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1600765124662">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1600765124662" />
+    <state x="57" y="63" key="new project wizard" timestamp="1600762271097">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="57" y="63" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1600762271097" />
+  </component>
+</project>
