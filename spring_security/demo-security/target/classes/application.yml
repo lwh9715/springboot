@@ -1,9 +1,0 @@
-#配置mybatis
-mybatis:
-  #配置xml映射路径
-  config-location:
-    - classpath:mybatis/mybatis-config.xml
-  mapper-locations:
-    - classpath:mybatis/mapper/*.xml
-  #配置实体类别名
-  type-aliases-package: com.security.bean
