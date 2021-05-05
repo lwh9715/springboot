@@ -1,0 +1,22 @@
+#配置thymeleaf
+spring:
+  thymeleaf:
+    cache: false
+
+#缓存配置
+redis:
+  # Redis服务器地址
+  #host: 192.168.43.86
+  host: 192.168.2.180
+  # Redis服务器连接端口
+  port: 6379
+  # Redis数据库索引（默认为0）
+  database: 0
+  # 连接超时时间（毫秒）
+  timeout: 1000
+  jedis:
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1

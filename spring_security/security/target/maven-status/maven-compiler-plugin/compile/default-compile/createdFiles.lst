@@ -1,0 +1,6 @@
+com\security\mapper\AdminMapper.class
+com\security\bean\Admin.class
+com\security\SecurityApplication.class
+com\security\service\MyUserDetailService.class
+com\security\config\WebSecurityConfig.class
+com\security\controller\KungfuController.class

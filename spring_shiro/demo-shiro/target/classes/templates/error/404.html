@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>404报错</h1></br>
+<div><p  th:text="${message}" th:if="${not #strings.isEmpty(message)}"></p></div>
+<div><p><a href="/logout">logout</a></p></div>
+<div><p><a href="/index">返回</a></p></div>
+</body>
+</html>

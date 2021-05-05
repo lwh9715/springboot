@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    #指定数据库
+    url: jdbc:mysql://121.4.220.112:3306/springboot
+    #驱动程序
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: liangwenhui
+  #更新时修改数据库
+  jpa:
+    hibernate:
+      ddl-auto: update

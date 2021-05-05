@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>主页，不需要任何权限即可访问</h1>
+<p>你的当前用户名是：</p>
+<p th:text="${username}" style="margin-top: 25px; color: crimson">用户</p>
+<p>你的权限是：</p>
+<p th:text="${authorities}" style="margin-top: 25px; color: crimson">权限</p>
+<h1>don't need to Authentication</h1>
+<a href="/index">主界页</a>
+<a href="/user">用户界面</a>
+<a href="/admin">管理界面</a>
+<a href="/login">登录界面</a>
+</body>
+</html>
