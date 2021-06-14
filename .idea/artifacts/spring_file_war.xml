@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="spring_file-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
       <element id="artifact" artifact-name="spring_file:war exploded" />
     </root>
   </artifact>

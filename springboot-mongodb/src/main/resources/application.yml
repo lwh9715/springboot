@@ -1,0 +1,27 @@
+spring:
+  data:
+    mongodb:
+        host: 121.4.220.112
+        port: 27017
+        database: mongodb
+        username: root
+        password: liangwenhui
+        option:
+          min-connection-per-host: 0
+          max-connection-per-host: 100
+          threads-allowed-to-block-for-connection-multiplier: 5
+          server-selection-timeout: 30000
+          max-wait-time: 120000
+          max-connection-idle-time: 60000
+          max-connection-life-time: 0
+          connect-timeout: 10000
+          socket-timeout: 60000
+          socket-keep-alive: true
+          ssl-enabled: false
+          ssl-invalid-host-name-allowed: false
+          always-use-m-beans: false
+          heartbeat-socket-timeout: 20000
+          heartbeat-connect-timeout: 20000
+          min-heartbeat-frequency: 500
+          heartbeat-frequency: 10000
+          local-threshold: 15

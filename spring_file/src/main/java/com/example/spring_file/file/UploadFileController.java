@@ -81,6 +81,12 @@ public class UploadFileController {
     }
 
 
+    /**
+     *  文件下载封装方法
+     * @param file
+     * @return
+     * @throws IOException
+     */
     public String saveFile(MultipartFile file) throws IOException {
         String path = "nothing";
         if (file != null) {

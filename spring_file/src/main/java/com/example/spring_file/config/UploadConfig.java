@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.servlet.MultipartConfigElement;
 
 /**
- * @描述 :
+ * @描述 : 上传文件配置类
  * @Author : 梁文辉
  * @Date: 2021-05-01 11:39
  */
